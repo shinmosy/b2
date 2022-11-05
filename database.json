@@ -3951,14 +3951,14 @@
       "limitjoin": 0
     },
     "6285157883553@s.whatsapp.net": {
-      "exp": 4,
+      "exp": 296,
       "limit": 100,
       "lastclaim": 0,
-      "registered": false,
+      "registered": true,
       "name": "Mosyafik",
       "pasangan": "",
-      "age": -1,
-      "regTime": -1,
+      "age": 27,
+      "regTime": 1667675683055,
       "afk": -1,
       "afkReason": "",
       "banned": false,
@@ -4019,7 +4019,12 @@
       "note": 0,
       "premium": false,
       "premiumTime": 0,
-      "limitjoin": 0
+      "limitjoin": 0,
+      "petFood": 0,
+      "catexp": 0,
+      "robo": 0,
+      "roboxp": 0,
+      "pc": 1667675179942
     },
     "380946607980@s.whatsapp.net": {
       "exp": 8,
@@ -5750,6 +5755,77 @@
       "premium": false,
       "premiumTime": 0,
       "limitjoin": 0
+    },
+    "6283865444700@s.whatsapp.net": {
+      "exp": 7,
+      "limit": 100,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "jaaaaa",
+      "pasangan": "",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Bronze V",
+      "autolevelup": true,
+      "money": 0,
+      "bank": 0,
+      "atm": 0,
+      "fullatm": 0,
+      "health": 100,
+      "potion": 10,
+      "trash": 0,
+      "wood": 0,
+      "rock": 0,
+      "string": 0,
+      "emerald": 0,
+      "diamond": 0,
+      "gold": 0,
+      "iron": 0,
+      "upgrader": 0,
+      "common": 0,
+      "uncommon": 0,
+      "mythic": 0,
+      "legendary": 0,
+      "superior": 0,
+      "pet": 0,
+      "horse": 0,
+      "horseexp": 0,
+      "cat": 0,
+      "catngexp": 0,
+      "fox": 0,
+      "foxexp": 0,
+      "dog": 0,
+      "dogexp": 0,
+      "horselastfeed": 0,
+      "catlastfeed": 0,
+      "foxlastfeed": 0,
+      "doglastfeed": 0,
+      "armor": 0,
+      "armordurability": 0,
+      "sword": 0,
+      "sworddurability": 0,
+      "pickaxe": 0,
+      "pickaxedurability": 0,
+      "fishingrod": 0,
+      "fishingroddurability": 0,
+      "lastadventure": 0,
+      "lastfishing": 0,
+      "lastdungeon": 0,
+      "lastduel": 0,
+      "lastmining": 0,
+      "lasthunt": 0,
+      "lastweekly": 0,
+      "lastmonthly": 0,
+      "lastbunga": 0,
+      "note": 0,
+      "premium": false,
+      "premiumTime": 0,
+      "limitjoin": 0
     }
   },
   "chats": {
@@ -5922,6 +5998,40 @@
       "expired": 0,
       "nsfw": false,
       "premnsfw": false
+    },
+    "6285157883553@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": true,
+      "viewonce": false,
+      "antiBadword": true,
+      "simi": false,
+      "expired": 0,
+      "nsfw": false,
+      "premnsfw": false
+    },
+    "6283830718131@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": true,
+      "viewonce": false,
+      "antiBadword": true,
+      "simi": false,
+      "expired": 0,
+      "nsfw": false,
+      "premnsfw": false
     }
   },
   "stats": {
@@ -5944,16 +6054,16 @@
       "lastSuccess": 1666723988649
     },
     "main-menu-1.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1666766582926,
-      "lastSuccess": 1666766582926
+      "total": 7,
+      "success": 7,
+      "last": 1667675214276,
+      "lastSuccess": 1667675214276
     },
     "exp-daftar.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1666766472254,
-      "lastSuccess": 1666766472254
+      "total": 4,
+      "success": 4,
+      "last": 1667675684161,
+      "lastSuccess": 1667675684161
     },
     "creator.js": {
       "total": 2,
@@ -5972,12 +6082,56 @@
       "success": 0,
       "last": 1666766709497,
       "lastSuccess": 0
+    },
+    "speed.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1667675182073,
+      "lastSuccess": 1667675182073
+    },
+    "own-getplugins.js": {
+      "total": 4,
+      "success": 0,
+      "last": 1667675267131,
+      "lastSuccess": 0
+    },
+    "cnnnews.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1667675622602,
+      "lastSuccess": 0
+    },
+    "kompasnews.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1667675635501,
+      "lastSuccess": 0
+    },
+    "youtube-play.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1667675695924,
+      "lastSuccess": 1667675695924
+    },
+    "youtube-yta.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1667675735027,
+      "lastSuccess": 1667675735027
     }
   },
   "msgs": {},
   "sticker": {},
   "settings": {
     "6283838186170@s.whatsapp.net": {
+      "self": false,
+      "autoread": true,
+      "jadibot": false,
+      "restrict": true,
+      "autorestart": true,
+      "restartDB": 0
+    },
+    "6282155207160@s.whatsapp.net": {
       "self": false,
       "autoread": true,
       "jadibot": false,
