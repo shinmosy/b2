@@ -297,45 +297,42 @@ let fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.cha
 let tagnya = `@${m.sender.split`@`[0]}`
 
 /*let tek = `*${ucapan()} @${m.sender.split`@`[0]}*
-☰⃟⃟ᭁ═━┈━┈༓
-┯┩
-┡────────────┈ ⳹
-┠━☰⃟⃟ᭁ「 *U s e rI n f o 克* 」
-┋↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-║↬✗• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-╏↬✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-╎↬✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-╅╌┉┈┈╳
-╭╼╼╼╼╼╼╼╼╺╴╴╳
-┊ 「 *S t a t u sI n f o 比* 」
-┊⧠ *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-┊⧠ *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
-┊⧠ *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
-┊⧠ *ʟɪᴍɪᴛ:* ${usrs.limit}
-┊⧠ *ʟᴇᴠᴇʟ:* ${usrs.level}
-┊⧠ *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
-┗––––––––––––––––––✥
-┊↬✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
+ 「 *U s e rI n f o 克* 」
+✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+✗• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
+✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+
+
+ 「 *S t a t u sI n f o 比* 」
+⧠ *ᴜᴘᴛɪᴍᴇ:* ${mpt}
+⧠ *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
+⧠ *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
+⧠ *ʟɪᴍɪᴛ:* ${usrs.limit}
+⧠ *ʟᴇᴠᴇʟ:* ${usrs.level}
+⧠ *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
+
+✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `*/
-let con = `┏━━━━━━━━━━━━━━━━━━━┓
-┆     List Menu ${namebot}
-┖┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┛
-┏┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╼
-┆ Hᴀʟᴏ ${tagnya}
-┢╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╼
-┣╌ ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫
-┃▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┃▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✘ Tidak'}
-┃▷ *Rᴏʟᴇ* : ${usrs.role}
-┃▷ *Lɪᴍɪᴛ* : ${usrs.limit}
-┃▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
-╰╴╴╴╳
+let con = `
+    List Menu ${namebot}
+
+
+ Hᴀʟᴏ ${tagnya}
+
+ ⁠◕ *Yᴏᴜʀ Iɴғᴏ* ◕
+▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✘ Tidak'}
+▷ *Rᴏʟᴇ* : ${usrs.role}
+▷ *Lɪᴍɪᴛ* : ${usrs.limit}
+▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
+
 ▎▍▌▋▊▍▋▍▌▌▌▋▍▎▎▍▍▎▎▎▎▍
-╭╴╴╼╳
-│◇ Aʟʟ Fɪᴛᴜʀ: ${totalf}
-╰╸╳`
+
+◇ Aʟʟ Fɪᴛᴜʀ: ${totalf}
+`
 let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
      let sekarangg = new Date().getTime() 
      let lebih = hariRayaramadan - sekarangg 
@@ -346,8 +343,6 @@ let hariRayaramadan = new Date('April 21, 2023 23:59:59')
 let tett = `▢ ▱▱▱ ▣► Dᴀᴛᴇ ◄▣ ▱▱▱ ▢ 
 ▯▷ *Uᴘᴛɪᴍᴇ* : ${mpt}
 ▯▷ *Tɪᴍᴇ* :  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
-▯▷ *Tᴀɴɢɢᴀʟ Isʟᴀᴍ* : ${dateIslamic}
-▢ ▱▱▱▱▱▱▱▱▱▱▱▱ ▢
 `
 let fot = `Nᴏᴛᴇ!! : Jɪᴋᴀ Aɴᴅᴀ Mᴇɴᴇᴍᴜᴋᴀɴ Bᴜɢ/Eʀʀᴏʀ 
 Bɪsᴀ Rᴇᴘᴏʀᴛ Dᴇɴɢᴀɴ Cᴀʀᴀ ▻ ketik #report 
@@ -357,7 +352,7 @@ text: tett,
 footer: fot,
 mentions: await conn.parseMention(con),
 title: con,
-buttonText: `CLICK HERE ⎙`, 
+buttonText: `MENU`, 
 sections
 }
 if (teks == '404') {
@@ -485,12 +480,12 @@ ptt: false, seconds: 0,contextInfo: {
     description: sgc,
     title: "Kᴛɪᴋ .sᴏᴜɴᴅᴍᴇɴᴜ ᴜɴᴛᴋ ʏɢ ʟᴀɪɴ",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/4ac64c08699681fade05d.jpg')).buffer(),
     sourceUrl: sgc
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
             body: 'Now Playing...', 
-           thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer()*/
+           thumbnail: await (await fetch('https://telegra.ph/file/4ac64c08699681fade05d.jpg')).buffer()*/
 }
      }
     })
@@ -498,32 +493,32 @@ ptt: false, seconds: 0,contextInfo: {
 
 //------------------ menuny
 let ownernya = `@${nomorown.split`@`[0]}`
-let almenu = `┏┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╼
-┆ Hᴀʟᴏ ${tagnya}
-┢╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╼
-┣╌ ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫
-┃▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┃▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✘ Tidak'}
-┃▷ *Rᴏʟᴇ* : ${usrs.role}
-┃▷ *Lɪᴍɪᴛ* : ${usrs.limit}
-┃▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
-┃▷ *Mᴏɴᴇʏ* : ${money}
-╰╴╴╴╳
+let almenu = `
+ Hᴀʟᴏ ${tagnya}
+
+   *Yᴏᴜʀ Iɴғᴏ* 
+▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✘ Tidak'}
+▷ *Rᴏʟᴇ* : ${usrs.role}
+▷ *Lɪᴍɪᴛ* : ${usrs.limit}
+▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
+▷ *Mᴏɴᴇʏ* : ${money}
+
 ▎▍▌▋▊▍▌▌▋▍▊▋▐▍▊▊▊▍▍
-╭╴╴╼ ▻ *INFO BOT* ◅ ╾╶ ╮
-│◇ Aʟʟ Fɪᴛᴜʀ: ${totalf}
-│◇ Oᴡɴᴇʀ: ${ownernya}
-│◇ Mᴏᴅᴇ: ${mode}
-│◇ Pʟᴀᴛғᴏʀᴍ: ${platform}
-│◇ Tʏᴘᴇ: Nodejs 
-│◇ Bᴀɪʟᴇʏs: Multi Device
-│◇ Pʀᴇғɪx: ${_p}
-│◇ Uᴘᴛɪᴍᴇ: ${mpt} 
-│◇ Dᴀᴛᴀʙᴀsᴇ: ${totalreg}
-╰╸╳`
+   *INFO BOT* 
+◇ Aʟʟ Fɪᴛᴜʀ: ${totalf}
+◇ Oᴡɴᴇʀ: ${ownernya}
+◇ Mᴏᴅᴇ: ${mode}
+◇ Pʟᴀᴛғᴏʀᴍ: ${platform}
+◇ Tʏᴘᴇ: Nodejs 
+◇ Bᴀɪʟᴇʏs: Multi Device
+◇ Pʀᴇғɪx: ${_p}
+◇ Uᴘᴛɪᴍᴇ: ${mpt} 
+◇ Dᴀᴛᴀʙᴀsᴇ: ${totalreg}
+`
 let nomorwa = '0'
-let nomorowm1 = '6281361281833'
+let nomorowm1 = '6285157883553'
 let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
 let d2 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 let d3= 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -578,7 +573,7 @@ function ucapan() {
 const time = moment.tz('Asia/Jakarta').format('HH')
 let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
 if (time >= 4) {
-res = "Pagi Lord 🌄"
+res = "Pagi Kak 🌄"
 }
 if (time >= 10) {
 res = "Selamat Siang Kak ☀️"
