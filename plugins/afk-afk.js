@@ -9,11 +9,11 @@ let wibu = `${global.hwaifu}`
 let thumb = await(await fetch(wibu)).buffer()
 user.afk = + new Date
 user.afkReason = text
- conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} Sᴇᴅᴀɴɢ Aғᴋ Dᴇɴɢᴀɴ Aʟᴀsᴀɴ ⬋`, `⬕ ${text ? ': ' + text : ''}` , 'Jangan Ganggu Ya', 'huuuuu', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
+ conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} Sᴇᴅᴀɴɢ Aғᴋ Dᴇɴɢᴀɴ Aʟᴀsᴀɴ ⬋`, `⬕ ${text ? ': ' + text : ''}` , 'Jangan Ganggu', 'huuuuu', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
         mediaUrl: "https://facebook.com/sadtime098",
         mediaType: "VIDEO",
         description: "https://facebook.com/sadtime098",
-        title: 'Simple Bot Esm',
+        title: 'BotShin © 2022',
         body: wm,
         thumbnail: thumb,
         sourceUrl: sgc
