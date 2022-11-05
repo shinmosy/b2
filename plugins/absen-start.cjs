@@ -14,7 +14,7 @@ var handler = async (m, {
 	]
 }
 handler.help = ['mulaiabsen [teks]']
-handler.tags = ['absen']
+handler.tags = ['tools]
 handler.command = /^(start|mulai)absen$/i
 handler.group = true
 handler.admin = true
