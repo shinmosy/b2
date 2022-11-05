@@ -34,7 +34,7 @@ _${global.wm}_`, m, {
 	})
 }
 handler.help = ['absen']
-handler.tags = ['absen']
+handler.tags = ['tools']
 handler.command = /^(absen|hadir)$/i
 handler.group = true
 module.exports = handler
