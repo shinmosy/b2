@@ -21,7 +21,7 @@ Contoh: ${usedPrefix}${command} leomessi
   conn.sendFile(m.chat, json.profilePicHD, 'error.jpg', iggs, m)
 }
 handler.help = ['igstalk <username>']
-handler.tags = ['tools']
+handler.tags = ['downloader']
 handler.command = /^(igstalk|igs)$/i
 handler.limit = true
 
