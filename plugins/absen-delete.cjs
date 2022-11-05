@@ -8,7 +8,7 @@ var handler = async (m, {
 	m.reply(`Done!`)
 }
 handler.help = ['hapusabsen']
-handler.tags = ['absen']
+handler.tags = ['tools']
 handler.command = /^(delete|hapus)absen$/i
 handler.group = true
 handler.admin = true
