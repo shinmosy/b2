@@ -1,5 +1,4 @@
-import axios from 'axios'
-import cheerio from 'cheerio'
+import { instagramStalk } from '@bochilteam/scraper'
 
 let handler = async (m, { conn, args, usedPrefix, command }) =>
   if (!args || !args[0]) throw `Gunakan format ${usedPrefix}${co
