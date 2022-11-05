@@ -31,7 +31,7 @@ _${global.wm}_`, m, {
 	})
 }
 handler.help = ['cekabsen']
-handler.tags = ['absen']
+handler.tags = ['tools']
 handler.command = /^cekabsen$/i
 handler.group = true
 module.exports = handler
