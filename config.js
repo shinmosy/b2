@@ -54,17 +54,17 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Created By Aldi'
-global.namebot = 'Sibear'
-global.wm = '© SiBear'
+global.author = 'ᴏɴᴄᴏᴍᴇʀꜱ'
+global.namebot = 'ᴏɴᴄᴏᴍᴇʀꜱ'
+global.wm = 'ᴏɴᴄᴏᴍᴇʀꜱ'
 global.media = 'https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg'
 global.watermark = wm
-global.wm2 = 'SiBear '
+global.wm2 = 'ᴏɴᴄᴏᴍᴇʀꜱ '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.packname = wm
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `SiBear v2.0.0`
-global.stickpack = 'SiBear v2.0.0 '
+global.titlebot = `ᴏɴᴄᴏᴍᴇʀꜱ v1.0.0`
+global.stickpack = 'ᴏɴᴄᴏᴍᴇʀꜱ v1.0.0 '
 global.stickauth = `© MOSY`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
