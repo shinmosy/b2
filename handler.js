@@ -1,4 +1,4 @@
-import { Presence } = from '@adiwajshing/baileys'
+import { Presence } from '@adiwajshing/baileys'
 import { smsg } from './lib/simple.js'
 import { format } from 'util'
 import { fileURLToPath } from 'url'
