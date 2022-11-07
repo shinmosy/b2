@@ -1,4 +1,3 @@
-import { Presence } from '@adiwajshing/baileys'
 import { smsg } from './lib/simple.js'
 import { format } from 'util'
 import { fileURLToPath } from 'url'
@@ -929,7 +928,7 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Sudah Dini Hari Kok Belum Tidur? 🥱"
   if (time >= 4) {
-    res = "Pagi Lord 🌄"
+    res = "Pagi 🌄"
   }
   if (time >= 10) {
     res = "Selamat Siang ☀️"
