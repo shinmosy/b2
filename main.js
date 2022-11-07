@@ -125,9 +125,9 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date
   }
   if (global.db.data == null) loadDatabase()
-   if (update.receivedPendingNotifications) conn.sendButtonDoc(`6281361281833@s.whatsapp.net`, 
+   if (update.receivedPendingNotifications) conn.sendButtonDoc(`6285157883553@s.whatsapp.net`, 
 `┏═══════════════════
-┃╴◈ Bᴏᴛ Tᴇʟᴀʜ Tᴇʀsᴀᴍʙᴜɴɢ
+┃╴◈ Bᴏᴛ Tᴇʟᴀʜ Tᴇʀsᴀᴍʙᴜɴɢ ✅
 ┣═══════════════════
 ┃╴▶ Nᴏᴍᴏʀ : ${global.nomorbot}
 ┃╴▶ Nᴀᴍᴇ Bᴏᴛ : ${global.namebot}
@@ -170,7 +170,7 @@ let welc = `
 ┏––––––━━━━━━━━•
 │☘︎ @subject
 ┣━━━━━━━━┅┅┅
-│( 👋 Hallo @user
+│( 👋 Hallo @user jangan lupa intro!
 ├[ *ɪɴᴛʀᴏ* ]—
 │ *ɴᴀᴍᴀ:* 
 │ *ᴜᴍᴜʀ:* 
@@ -181,7 +181,7 @@ let welc = `
 @desc`
 let lef = 
 `❖━━━[ *나중에 봐요* ]━━━❖
-𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 *@user* 👋😃`
+Dadaahhh *@user* 👋😃`
 
   conn.welcome = welc
   conn.bye = lef
