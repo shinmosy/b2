@@ -263,8 +263,8 @@ global.drtf = 'text/rtf'
 //OPTIONS
 global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
 global.premnsfw = true // Nsfw Mode Premium?
-global.thumb = 'https://telegra.ph/file/d228cf9e49e7413568a1c.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/d228cf9e49e7413568a1c.jpg'
+global.thumb = 'https://telegra.ph/file/66821efdee0fda0ccdb85.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/66821efdee0fda0ccdb85.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
 global.thumbs = ['https://telegra.ph/file/d228cf9e49e7413568a1c.jpg']
 global.thumbnailUrl = [
@@ -274,8 +274,8 @@ global.thumbnailUrl = [
   'https://telegra.ph/file/55e5af5f33fbd57104187.jpg', 'https://telegra.ph/file/af236598456b95884bd15.jpg',
   'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
 ]
-global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/e72de2cbba03f58eba7d1.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/66821efdee0fda0ccdb85.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/66821efdee0fda0ccdb85.jpg' //ini juga ganti 
 global.flaaa2 = [
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=",
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=",
@@ -290,8 +290,8 @@ global.fla = [
  "https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=",
  "https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text="
 ]
-global.hwaifu = ['https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg']
-global.hyuri = ['https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg']
+global.hwaifu = ['https://telegra.ph/file/66821efdee0fda0ccdb85.jpg']
+global.hyuri = ['https://telegra.ph/file/66821efdee0fda0ccdb85.jpg']
 global.hLokun = ['https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg','https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg', 'https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg', 'https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg']
 global.hloli = ['https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg', 'https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg','https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg','https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg']
 global.hneko = ['https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg', 'https://telegra.ph/file/f9c4d97477b647cf57a2b.jpg','https://telegra.ph/file/b6905b77e6c7732592a13.jpg', 'https://telegra.ph/file/9f82c432d0ba4cfffda9a.png', 'https://telegra.ph/file/484083949d4bfd763b8cf.jpg']
@@ -308,12 +308,12 @@ global.urlnya = "https://www.instagram.com"
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
 global.phn = '0813 6128 1833'
 
-global.thumbdoc = 'https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg'
+global.thumbdoc = 'https://telegra.ph/file/66821efdee0fda0ccdb85.jpg'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.fsizedoc = '99999999999999'
 global.fpagedoc = '999'
-global.thumbdoc = 'https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg'
+global.thumbdoc = 'https://telegra.ph/file/66821efdee0fda0ccdb85.jpg'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
