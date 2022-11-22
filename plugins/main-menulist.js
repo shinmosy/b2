@@ -504,7 +504,6 @@ let almenu = `
 ▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
 ▷ *Mᴏɴᴇʏ* : ${money}
 
-▎▍▌▋▊▍▌▌▋▍▊▋▐▍▊▊▊▍▍
    *INFO BOT* 
 ◇ Aʟʟ Fɪᴛᴜʀ: ${totalf}
 ◇ Oᴡɴᴇʀ: ${ownernya}
