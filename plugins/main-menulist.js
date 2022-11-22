@@ -329,7 +329,6 @@ let con = `
 ▷ *Lɪᴍɪᴛ* : ${usrs.limit}
 ▷ *Lᴇᴠᴇʟ* : ${usrs.level}
 
-▎▍▌▋▊▍▋▍▌▌▌▋▍▎▎▍▍▎▎▎▎▍
 
 ◇ Aʟʟ Fɪᴛᴜʀ: ${totalf}
 `
