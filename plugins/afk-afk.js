@@ -4,7 +4,7 @@ let handler = async (m, { text }) => {
 let name = m.pushName || conn.getName(m.sender)
 
 let user = global.db.data.users[m.sender]
-let turu = `${global.afks}`
+let turu = `${global.hwaifu}`
 
 let thumb = await(await fetch(turu)).buffer()
 user.afk = + new Date
