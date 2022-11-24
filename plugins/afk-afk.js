@@ -4,15 +4,15 @@ let handler = async (m, { text }) => {
 let name = m.pushName || conn.getName(m.sender)
 
 let user = global.db.data.users[m.sender]
-let wibu = `${global.hwaifu}`
+let wibu = `${global.afk}`
 
 let thumb = await(await fetch(wibu)).buffer()
 user.afk = + new Date
 user.afkReason = text
  conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} Sᴇᴅᴀɴɢ Aғᴋ Dᴇɴɢᴀɴ Aʟᴀsᴀɴ ⬋`, `⬕ ${text ? ': ' + text : ''}` , 'Jangan Ganggu', 'huuuuu', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
-        mediaUrl: "https://facebook.com/sadtime098",
+        mediaUrl: "https://facebook.com/,
         mediaType: "VIDEO",
-        description: "https://facebook.com/sadtime098",
+        description: "https://facebook.com",
         title: 'BotShin © 2022',
         body: wm,
         thumbnail: thumb,
