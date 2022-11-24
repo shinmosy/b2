@@ -290,8 +290,8 @@ global.fla = [
  "https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=",
  "https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text="
 ]
-global.afk = ['https://telegra.ph/file/dfd6d11c6f0418a7f5f03.jpg']
-global.unafk = ['https://telegra.ph/file/bccd8b356e806f64fc2d7.jpg']
+global.afks = ['https://telegra.ph/file/dfd6d11c6f0418a7f5f03.jpg']
+global.unafks = ['https://telegra.ph/file/bccd8b356e806f64fc2d7.jpg']
 global.hwaifu = ['https://telegra.ph/file/66821efdee0fda0ccdb85.jpg']
 global.hyuri = ['https://telegra.ph/file/66821efdee0fda0ccdb85.jpg']
 global.hLokun = ['https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg','https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg', 'https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg', 'https://telegra.ph/file/df1adc0c7cbf695e41bfa.jpg']
