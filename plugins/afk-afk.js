@@ -1,25 +1,28 @@
-import fs from 'fs'
-import fetch from 'node-fetch'
+/*
 let handler = async (m, { text }) => {
-let name = m.pushName || conn.getName(m.sender)
+    let user = global.db.data.users[m.sender]
+    user.afk = + new Date
+    user.afkReason = text
+    m.reply(`
+  ${conn.getName(m.sender)} is now AFK${text ? ': ' + text : ''}
+  `)
+}
+handler.help = ['afk [alasan]']
+handler.tags = ['main']
+handler.command = /^afk$/i
 
-let user = global.db.data.users[m.sender]
-let turu = `${global.hwaifu}`
+export default handler
+*/
 
-let thumb = await(await fetch(turu)).buffer()
-user.afk = + new Date
-user.afkReason = text
- conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} Sᴇᴅᴀɴɢ Aғᴋ Dᴇɴɢᴀɴ Aʟᴀsᴀɴ ⬋`, `⬕ ${text ? ': ' + text : ''}` , 'Jangan Ganggu', 'huuuuu', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
-        mediaUrl: "https://facebook.com/,
-        mediaType: "VIDEO",
-        description: "https://facebook.com",
-        title: 'BotShin © 2022',
-        body: wm,
-        thumbnail: thumb,
-        sourceUrl: sgc
-    }
-    } })
-            }
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+    let user = global.db.data.users[m.sender]
+    user.afk = + new Date
+    user.afkReason = text
+    let caption = `*${conn.getName(m.sender)}* @${m.sender.split("@")[0]} *Sekarang lagi AFK*\n*Dengan Alasan*${text ? ': ' + text : ''}`
+    let kataafk = ['mau turu', 'mau nyolong', 'Ke rumah bias ku', 'mau ngising', 'beli surya', 'beli seblak', 'olahraga malam', 'mangan', 'push renk sampe losstrek', 'push up joni', 'senam bersama janda', 'nonton dipfek', 'ngcok', 'sewa oyo', 'di suruh emak', 'kerja']
+    conn.sendButton(m.chat, caption, wm, null, [['Ikut AFK', '.afk ' + kataafk.getRandom()]], m, { mentions: conn.parseMention(caption) })
+}
+
 handler.help = ['afk [alasan]']
 handler.tags = ['main']
 handler.command = /^afk$/i
