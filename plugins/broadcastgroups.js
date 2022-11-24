@@ -68,14 +68,12 @@ let handler = async (m, { conn,isOwner, isROwner, text }) => {
     let bcbg = `${pickRandom(['https://telegra.ph/file/bca700eefeeed8f2cb054.jpg', 'https://telegra.ph/file/ec9831cc3b7001690d6dd.jpg','https://telegra.ph/file/177f7054ebddc6d1f8375.jpg','https://telegra.ph/file/90d4254ae53b4d268b2b9.jpg','https://telegra.ph/file/a6e4013afa98e283ee6a7.jpg','https://telegra.ph/file/2cf9cf86466d9fad58e52.jpg','https://telegra.ph/file/f62c45fb2e087187f065e.jpg','https://telegra.ph/file/fec157267ed3cf69021e1.jpg','https://telegra.ph/file/419672df2fb86a057cb26.jpg'])}`
     for (let i of anu) {
   conn.send3ButtonImg(i, bcbg, `${global.namebot} Broadcast Group\n`,`
-┏━ ❮❮ 𝙼𝙴𝚂𝚂𝙴𝙶𝙴 ❯❯
-┣❲ ${pesan} ❳
-┖─┅┈⸔⸔⬫
-┏┬┬┬┬┬┬┬┬┬┬┬┬┬⁛⸙⸙
-┃⫹⫺ 𝚁𝚞𝚗𝚝𝚒𝚖𝚎 : ${uptime} ${muptime}
-┃⫹⫺ 𝙳𝚊𝚝𝚎 : ${date}
-┃⫹⫺ 𝚝𝚒𝚖𝚎 : ${time}
-┖──┈┈┈〠⸙࿉༐
+Pesan :
+ ${pesan} ❳
+
+
+⫹⫺ 𝙳𝚊𝚝𝚎 : ${date}
+⫹⫺ 𝚝𝚒𝚖𝚎 : ${time}
 `,
    'Menu','.menu',
      'Owner','.owner',
