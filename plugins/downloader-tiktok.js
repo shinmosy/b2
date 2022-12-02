@@ -78,7 +78,8 @@ export default handler
 */
 
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-if (!args[0]) return m.reply('Link?')
+	await m.reply(`*_${md} @${m.sender.split(`@`)[0]}..._*`)
+if (!args[0]) return m.reply(`masukan kak @${m.sender.split(`@`)[0]} link tiktok contoh\nhttps://vt.tiktok.com/ZSR7MJgwa/`)
 	
 let tiktok = `
 ${htki}  📺 Tiktok Downloader 🔎  ${htka}
@@ -87,36 +88,21 @@ ${htki}  📺 Tiktok Downloader 🔎  ${htka}
 
 *Teks yang anda kirim:* ${args[0]}
 
-Ketik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi
 
-🚀 : Kalau error berarti scrape / limit apikey free nya abis asw :v
-🚀 : Makanya bantu donasi buat support + beli apikey unlimited bjir :v
-
-Donasi :
-Nomor Developer : wa.me/6282127487538
-Nomor Owner Bot : wa.me/${nomorown}`
+Nomor Owner Bot : wa.me/${nomorown}
+IG Owner : ${sig}
+join gc gw rameiin🗿
+${sgc}`
 
 // yang hapus nomor developer mudah-mudahan banyak crash
 const sections = [
    {
 	title: `${htjava} Tiktok Downloader Work✦-------`,
 	rows: [
-        {title: "Api Malesin", rowId: `.malesin ${args[0]}`, description: 'Apikey Limit Unlimited' },
-        {title: "Api Neoxr", rowId: `.ttkneoxr ${args[0]}`, description: 'Apikey Limit Free' },
-        {title: "Api Adiixyz", rowId: `.ttkadiixyz ${args[0]}`, description: 'Apikey Limit Unlimited' },
-        {title: "Api Anabot", rowId: `.ttkanabot ${args[0]}`, description: 'Apikey Limit Unlimited' },
-        {title: "Api X-Team", rowId: `.ttkxteam ${args[0]}`, description: 'Apikey Limit Free' },
-	{title: "Api ZenzApis", rowId: `.ttkzenzapis ${args[0]}`, description: 'Apikey Limit Free' },
-    ]
-    },{
-        title: `${htjava} Tiktok Downloader Error / 50% Work ✦-------`,
-        rows: [
-        {title: "BochilTeam V1 (Error)", rowId: `.ttkbocilteam1 ${args[0]}`, description: 'Scrape Bochilteam' },
-        {title: "BochilTeam V2 (Error)", rowId: `.ttkbocilteam2 ${args[0]}`, description: 'Scrape Bochilteam' },
-        {title: "BochilTeam V3 (Error)", rowId: `.ttkbocilteam3 ${args[0]}`, description: 'Scrape Bochilteam' },
-        {title: "TikTok Social (Error)", rowId: `.ttksocial ${args[0]}`, description: 'Scrape Social' },
-        {title: "Api BetaBotz (Error)", rowId: `.ttkbetabotz ${args[0]}`, description: 'Apikey Limit Unlimited' },
-	{title: "Api Xcoders (Error)", rowId: `.ttkxcoders ${args[0]}`, description: 'Apikey Limit Unlimited' },
+        {title: "✎ • downloader tiktok V1", rowId: `.malesin ${args[0]}`, description: 'download Vidio tiktok Kamu di ZykoBotz-MD' },
+        {title: "✎ • downloader tiktok V2", rowId: `.ttkneoxr ${args[0]}`, description: 'download Vidio tiktok Kamu di ZykoBotz-MD' },
+	{title: "✎ • downloader tiktok V3", rowId: `.ttkzenzapis ${args[0]}`, description: 'download Vidio tiktok Kamu di ZykoBotz-MD' },
+	{title: "✎ • downloader tiktok V4", rowId: `.bismilahwrok ${args[0]}`, description: 'download Vidio tiktok Kamu di ZykoBotz-MD' },
         ]
     },
 ]
