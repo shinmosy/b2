@@ -276,7 +276,7 @@ global.thumbnailUrl = [
 ]
 global.fotonya1 = 'https://telegra.ph/file/66821efdee0fda0ccdb85.jpg' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/66821efdee0fda0ccdb85.jpg' //ini juga ganti 
-global.flaaa2 = [
+global.flaaa = [
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=",
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=",
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=",
